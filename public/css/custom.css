@@ -1,0 +1,37 @@
+
+@-webkit-keyframes fadeout {
+    from {
+        background-color: #d4edda;
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+
+@-moz-keyframes fadeout {
+    from {
+        background-color: #d4edda;
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        background-color: #d4edda;
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+
+.fadeout {
+    -webkit-animation: fadein 2s ease-in alternate;
+    -moz-animation: fadeout 2s ease-in alternate;
+    animation: fadeout 2s ease-in alternate;
+    background-color: #fff;
+}
