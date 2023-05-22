@@ -37,11 +37,8 @@
                                             <td>{!! \Illuminate\Support\Str::limit($task->desc, 30, '...') !!}</td>
                                             <td>{{ $task->status }}</td>
                                             <td>
-                                                <a href="javascript:void(0)" class="edit-task" data-id="{{ $task->id }}"
-                                                    title="Edit todo"><i class="fas fa-pencil-alt me-3"></i></a>
-                                                <a href="javascript:void(0)" class="text-danger delete-task"
-                                                    data-id="{{ $task->id }}" title="Delete todo"><i
-                                                        class="fas fa-trash-alt me-3"></i></a>
+                                                <a href="javascript:void(0)" class="edit-task" data-id="{{ $task->id }}"title="Edit todo"><i class="fas fa-pencil-alt me-3"></i></a>
+                                                <a href="javascript:void(0)" class="text-danger delete-task"data-id="{{ $task->id }}" title="Delete todo"><i class="fas fa-trash-alt me-3"></i></a>
                                             </td>
                                         </tr>
                                     @endforeach
